@@ -39,3 +39,5 @@ class Controller:
         """Evaluate expressions."""
         result = self._evaluate(expression=self._view.getDisplayText())
         self._view.setDisplayText(result)
+
+#finally code ended
